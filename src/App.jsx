@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Login from './components/login'
 import Registration from './components/Registration'
+import RecruiterLogin from './components/RecruiterLogin'
+import Login from './components/Login'
+import Index from './components'
 
 function App() {
 
@@ -11,7 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Registration />} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="/" element={< Index/>} />
+          <Route path="/recruiterLogin" element={<RecruiterLogin />} />
+
         </Routes>
       </BrowserRouter>
 

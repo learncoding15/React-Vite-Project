@@ -5,7 +5,6 @@ const Register = () => {
     const [lastName, setLastName] = useState('');
     const [mobile, setMobile] = useState('');
     const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -14,7 +13,6 @@ const Register = () => {
             lastName,
             mobile,
             email,
-            password
         });
         // Add your registration logic here
     };
