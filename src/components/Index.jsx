@@ -56,10 +56,10 @@ const Index = () => {
                                         <button type="submit" className='btn btn-success w-100'>Continue</button>
                                     </form>
                                     <div className='text-center my-3'>
-                                        <p className='text-muted'>______ or ______</p>
+                                        <p className='text-muted'>_______________________ or _____________________</p>
                                     </div>
                                     <div className='text-center'>
-                                        <a href="#" className='text-decoration-none text-primary'>Click here for Enterprise login</a>
+                                        <a href="/recruiterLogin" className='text-decoration-none text-primary'>Click here for Recuiter login</a>
                                         <p className='mt-3 text-muted'>
                                             By clicking continue, you agree to the apna
                                             <a href="#" className='text-decoration-none text-primary'> Terms of Service</a> & 

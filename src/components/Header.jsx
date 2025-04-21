@@ -33,10 +33,8 @@ const Header = () => {
                         <a className="nav-link disabled text-white" href="#" tabIndex="-1" aria-disabled="true">Link</a>
                      </li>
                   </ul>
-                  <form className="d-flex">
-                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                     <button className="btn btn-outline-light" type="submit">Search</button>
-                  </form>
+                  <a href="/login"><button className="btn btn-outline-light me-3" type="submit">candidate/Login</button></a>
+                     <a href="/recruiterLogin"><button className="btn btn-outline-light" type="submit">Recruiter/Sign Up</button></a>
                </div>
             </div>
          </nav>
